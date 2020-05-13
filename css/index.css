@@ -185,6 +185,9 @@ header .nav {
   align-items: center;
   color: #212529;
 }
+@mobile {
+  justify-content: space-between;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
