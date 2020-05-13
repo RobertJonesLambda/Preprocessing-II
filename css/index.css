@@ -7,7 +7,7 @@
   font-size: 2rem;
 }
 .btn-class:hover {
-  background-color: #66ffff;
+  background-color: #99ffff;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -191,13 +191,18 @@ header .head-title {
   align-items: center;
   color: #212529;
 }
+@mobile {
+  justify-content: center;
+  align-items: center;
+}
 header .nav {
   justify-content: center;
   align-items: center;
   color: #212529;
 }
 @mobile {
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   width: 100%;
